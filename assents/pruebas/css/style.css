@@ -1,0 +1,25 @@
+.color_principal{
+    background: #deabf1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #deabf1, #de96f8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsl(276, 84%, 63%), #d68be9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.color_izquierdo{
+    background: #3a203f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a173c0, #6f4e8f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ca52ac, #ee77d0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.color_derecho{ 
+    background: #91aceb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.principal_texto{
+    color: rgb(80, 79, 79);
+}
+
+.titulo_texto{
+    color:rgb(255, 255, 255);
+}

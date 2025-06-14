@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: #3f3e3e;
+}
+
+.sec-principal {
+  width: 100%;
+  background-color: #fa95d0;
+}
+
+.Titulo-nav {
+  font-size: 100px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.img-principal {
+  width: 100%;
+  height: 500px;
+  background-image: url("../pruebas/img/imagen-pixelada-1.webp");
+  background-size: cover;
+}
+
+.sec-descripcion {
+  width: 100%;
+  background-color: #020202;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: row;
+  justify-content: space-between;
+  gap: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.texto-descrip {
+  color: #fa95d0;
+  font-size: 16px;
+  font-weight: 300;
+  width: 50%;
+}
+
+.img-descrip {
+  width: 400px;
+  height: 500px;
+  background-image: url("../pruebas/img/IMG_20241101_231018_630.jpg");
+  background-size: auto;
+  background-position: center;
+}
+
+.sec-caracteristicas {
+   width: 100%;
+   background-color: #fa95d0;
+   padding: 50px;
+}
+
+.sec-titulo {
+ width: 100%;
+ text-align: center;
+ font-size: 40px;
+ font-weight: 400;
+}
+
+.contenedor-caracteristicas {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.caja-caracteristicas {
+ width: auto;
+ height: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.caja-caracteristicas i {
+  font-size: 40px;
+  padding: 5px;
+}
+
+.caracteristica {
+  font-size: 25px;
+  font-weight: 300;
+  padding: 10px;
+
+}
+
+.sec-galaria {
+  background-color: #414040;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+}
+
+.img-galeria {
+  width: 316px;
+  height: 202px;
+}
+
+.img1 {
+  background-image: url("../pruebas/img/desa1.png");
+  background-size: cover;  
+}
+
+.img2 {
+  background-image: url("../pruebas/img/desa2.png");
+  background-size: cover;  
+}
+
+.img3 {
+  background-image: url("../pruebas/img/desa3.png");
+  background-size: cover;  
+}
+
+.img4 {
+  background-image: url("../pruebas/img/desa4.png");
+  background-size: cover;  
+}
+
+.img5 {
+  background-image: url("../pruebas/img/desa5.png");
+  background-size: cover;  
+}
+
+.img6 {
+  background-image: url("../pruebas/img/desa6.png");
+  background-size: cover;  
+}
+
+.sec-footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #fa95d0;
+}
+
+.boton-centrado {
+    display: block;
+    margin: auto;
+    font-weight: 500;
+}
+.sec-footer img {
+    display: block;
+    margin: auto;
+}
+
+.container {
+    background-color: #fa95d0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ubica {
+    width: 100%;
+    background-color: #000000a0;
+    height: 0.3pt;
+    text-align:left;
+}
+.visita {
+  font-size: 20px;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  
+}
