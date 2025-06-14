@@ -118,12 +118,12 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 2%;
 }
 
 .img-galeria {
   width: 316px;
   height: 202px;
+  margin: 10px;
 }
 
 .img1 {
